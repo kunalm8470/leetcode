@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "remove_duplicates", "remove_duplicates\remove_duplicates.csproj", "{2933431E-CAF8-483F-A0B0-8EAECDEEA4BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2933431E-CAF8-483F-A0B0-8EAECDEEA4BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2933431E-CAF8-483F-A0B0-8EAECDEEA4BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2933431E-CAF8-483F-A0B0-8EAECDEEA4BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2933431E-CAF8-483F-A0B0-8EAECDEEA4BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84762586-6992-452C-B98D-DC5FB8A2A217}
+	EndGlobalSection
+EndGlobal
