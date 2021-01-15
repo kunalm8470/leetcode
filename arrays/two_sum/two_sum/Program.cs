@@ -12,17 +12,23 @@ namespace two_sum
                 return null;
             }
 
-            Dictionary<int, int> lookup = new Dictionary<int, int>();
+            int leftIndex = 0;
+            int rightIndex = nums.Length - 1;
             for (int i = 0; i < nums.Length; i++)
             {
-                int diff = target - nums[i];
-                
-                if (lookup.ContainsKey(diff))
+                int currentSum = nums[leftIndex] + nums[rightIndex];
+                if (currentSum < target)
                 {
-                    return new int[] { i, lookup[diff] };
+                    leftIndex += 1;
                 }
-
-                lookup.Add(nums[i], i);
+                else if (currentSum > target)
+                {
+                    rightIndex -= 1;
+                }
+                else
+                {
+                    return new int[2] { leftIndex, rightIndex };
+                }
             }
 
             return new int[2];
@@ -33,13 +39,6 @@ namespace two_sum
             int[] nums = { 2, 7, 11, 15 };
             int target = 9;
             int[] res = TwoSum(nums, target);
-
-            for (int i = 0; i < res.Length; i++)
-            {
-                Console.Write(res[i] + " ");
-            }
-            
-            Console.ReadLine();
         }
     }
 }
