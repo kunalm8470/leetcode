@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "array_rank_transform", "array_rank_transform\array_rank_transform.csproj", "{A197D486-0AE6-49F6-B71F-C1C4981CE2CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A197D486-0AE6-49F6-B71F-C1C4981CE2CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A197D486-0AE6-49F6-B71F-C1C4981CE2CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A197D486-0AE6-49F6-B71F-C1C4981CE2CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A197D486-0AE6-49F6-B71F-C1C4981CE2CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {63249E0A-81B7-4077-B51C-FF1119BFD352}
+	EndGlobalSection
+EndGlobal
