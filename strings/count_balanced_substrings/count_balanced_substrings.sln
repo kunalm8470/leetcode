@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "count_balanced_substrings", "count_balanced_substrings\count_balanced_substrings.csproj", "{5EA5E13C-759B-4065-B3F0-E0D5EEF8DAFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5EA5E13C-759B-4065-B3F0-E0D5EEF8DAFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EA5E13C-759B-4065-B3F0-E0D5EEF8DAFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EA5E13C-759B-4065-B3F0-E0D5EEF8DAFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EA5E13C-759B-4065-B3F0-E0D5EEF8DAFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {78BA3193-AD01-4DA5-8F52-1EFABBC71A85}
+	EndGlobalSection
+EndGlobal
