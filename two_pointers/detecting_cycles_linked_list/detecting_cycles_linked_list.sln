@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "detecting_cycles_linked_list", "detecting_cycles_linked_list\detecting_cycles_linked_list.csproj", "{BA565D39-6AFB-47C0-BE6D-2A58D21C6AF5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA565D39-6AFB-47C0-BE6D-2A58D21C6AF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA565D39-6AFB-47C0-BE6D-2A58D21C6AF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA565D39-6AFB-47C0-BE6D-2A58D21C6AF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA565D39-6AFB-47C0-BE6D-2A58D21C6AF5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {92CDB536-68A6-4CBD-A9A5-2D5D75B41AB1}
+	EndGlobalSection
+EndGlobal
