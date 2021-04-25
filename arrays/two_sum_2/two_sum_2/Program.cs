@@ -6,34 +6,34 @@ namespace two_sum_2
     {
         public static int[] TwoSum(int[] numbers, int target)
         {
-            int[] result = new int[2];
-            if (numbers == default(int[]) || numbers.Length == 0)
-            {
-                return result;
-            }
-
-            int leftIndex = 0;
-            int rightIndex = numbers.Length - 1;
+            (int, int)[] lookup = new (int, int)[numbers.Length];
             for (int i = 0; i < numbers.Length; i++)
             {
-                int current = numbers[leftIndex] + numbers[rightIndex];
-                if (current < target)
+                lookup[i] = (numbers[i], i);
+            }
+
+            Array.Sort(lookup, (a, b) => a.Item1 - b.Item1);
+
+            int start = 0;
+            int end = lookup.Length - 1;
+            while (start < end)
+            {
+                int sum = lookup[start].Item1 + lookup[end].Item1;
+                if (sum < target)
                 {
-                    leftIndex += 1;
+                    start++;
                 }
-                else if (current > target)
+                else if (sum > target)
                 {
-                    rightIndex -= 1;
+                    end--;
                 }
-                else
+                else if (sum == target)
                 {
-                    result[0] = leftIndex + 1;
-                    result[1] = rightIndex + 1;
-                    return result;
+                    return new int[2] { lookup[start].Item2, lookup[end].Item2 };
                 }
             }
 
-            return result;
+            throw new Exception("No solution found!");
         }
 
         static void Main(string[] args)
